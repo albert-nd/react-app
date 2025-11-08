@@ -5,39 +5,39 @@ const HeadlineCards = () => {
     <div className='max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6'>
       {/* CARDS */}
 
-      <div className='relative h-[250px] border '>
+      <div className='relative h-[350px] '>
         {/* overlay */}
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-            <p className='font-bold text-2xl px-2 pt-4'>Sun's Out, BOGO's Out</p>
-            <p className='px-2'>Through 9/28</p>
-            <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
+            <p className='font-bold text-2xl px-2 pt-4'>Co-operate and working outfits</p>
+            <p className='px-2'>Office and interviews</p>
+            <button className='border-white bg-white text-black mx-2 absolute bottom-4 font-bold hover:text-blue-900 hover:duration-300'>Order Now</button>
         </div>
         
-        <img className='h-full w-full object-cover rounded-xl' src="https://images.unsplash.com/photo-1613769049987-b31b641f25b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGJyZWFrZmFzdHxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60" alt="/" />
+        <img className='h-full w-full object-cover rounded-xl' src="https://i.pinimg.com/736x/02/a7/56/02a756c8150dcba5e7a60f30bac7a5a0.jpg" alt="/" />
         </div>
 
 
-      <div className='relative h-[250px] border '>
+      <div className='relative h-[350px] '>
         {/* overlay */}
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-            <p className='font-bold text-2xl px-2 pt-4'>New Resturant</p>
-            <p className='px-2'>Added Daily</p>
-            <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
+            <p className='font-bold text-2xl px-2 pt-4'>Street and trending outfits</p>
+            <p className='px-2'>Everyday outfit</p>
+            <button className='border-white bg-white text-black mx-2 absolute bottom-4 font-bold hover:text-blue-900 hover:duration-300'>Order Now</button>
         </div>
         
-        <img className='h-full w-full object-cover rounded-xl' src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJicXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60" alt="/" />
+        <img className='h-full w-full object-cover rounded-xl' src="https://i.pinimg.com/736x/5c/ca/09/5cca09f5c8c5a8c4ecb4ecee185c749f.jpg" alt="/" />
         </div>
 
 
-      <div className='relative h-[250px] border '>
+      <div className='relative h-[350px] '>
         {/* overlay */}
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-            <p className='font-bold text-2xl px-2 pt-4'>We deliver Dessert too</p>
-            <p className='px-2'>Tasty Treats</p>
-            <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
+            <p className='font-bold text-2xl px-2 pt-4'>Sports and fitness outfits</p>
+            <p className='px-2'>sport wears</p>
+            <button className='border-white bg-white text-black mx-2 absolute bottom-4 font-bold hover:text-blue-900 hover:duration-300'>Order Now</button>
         </div>
 
-        <img className='h-full w-full object-cover rounded-xl' src="https://images.unsplash.com/photo-1559715745-e1b33a271c8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRlc3NlcnR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="/" />
+        <img className='h-full w-full object-cover rounded-xl' src="https://i.pinimg.com/1200x/ba/af/c2/baafc2d1e108c3181d551f38210fe02e.jpg" alt="/" />
         </div>
       </div>
   )
