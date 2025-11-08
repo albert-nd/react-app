@@ -54,6 +54,7 @@ const filterPrice = (price) => {
         </div>
       </div>
         {/* display foods */}
+        {/* display foods */}
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
             {
                 foods.map((item, index) => (
