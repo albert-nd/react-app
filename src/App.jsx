@@ -5,6 +5,8 @@ import OrderFood from './components/Pages/OrderFood';
 import Help from './components/Pages/Help';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
+
+
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -101,6 +103,8 @@ function App() {
         <Route path="/OrderFood" element={<OrderFood />} />
         <Route path="/Help" element={<Help />} />
       </Routes>
+      <div className='max-w-[1640px] min-w-[10px] mx-auto h-auto bg-gradient-to-bl from-cyan-300/70 to-yellow-500/70'>
+      </div>
     </div>
   );
 }
