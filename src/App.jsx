@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Pages/Home';
-import OrderFood from './components/Pages/OrderFood';
+import OrderFood from './components/Pages/OrderFood'; 
 import Help from './components/Pages/Help';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
