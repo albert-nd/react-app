@@ -24,7 +24,7 @@ const SearchBar = ({ fetchWeather }) => {
 
       <button
         type="submit"
-        className="bg-blue-600 text-black px-4 hover:text-gray-300 hover:bg-blue-700 border border-gray-300 rounded-r-full cursor-pointer "
+        className="bg-blue-600 text-black px-4 hover:text-gray-300 hover:bg-blue-700 border border-gray-300 rounded-r-full cursor-pointer duration-300"
       >
         Search
       </button>
