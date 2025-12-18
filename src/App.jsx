@@ -31,37 +31,41 @@ function App() {
   };
 
   return (
-    <div className="max-w-[1640px] min-w-[10px] mx-auto my-auto h-[900px] bg-gradient-to-bl from-cyan-300 to-purple-300 pt-2 pb-9">
-      <div className="bg-black/80 border border-black text-white rounded-[50px] shadow-lg mt-[150px] p-8 max-w-md w-full mx-auto">
-        <h1 className="text-3xl font-bold text-center mb-6 text-purple-200">
+    <div className="min-h-screen bg-gradient-to-bl from-cyan-300 to-purple-300 flex items-start sm:items-center justify-center px-4 py-6">
+      <div className="bg-black/80 border border-black text-white rounded-3xl shadow-lg p-6 sm:p-8 max-w-md w-full">
+        <h1 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-purple-200">
           WEATHER APP
         </h1>
 
         <SearchBar fetchWeather={fetchWeather} />
 
-        {loading && <p className="text-center mt-4">Loading...</p>}
-        {error && <p className="text-center text-red-500 mt-4">{error}</p>}
+        {loading && (
+          <p className="text-center mt-4 text-sm sm:text-base">Loading...</p>
+        )}
+        {error && (
+          <p className="text-center text-red-500 mt-4 text-sm sm:text-base">{error}</p>
+        )}
 
         {weather && (
           <div className="mt-6 text-center">
-            <h2 className="text-4xl font-bold">{weather.name}</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold">{weather.name}</h2>
 
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center mt-2">
               <img
                 src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
                 alt={weather.weather[0].description}
-                className="w-18 h-18"
+                className="w-16 h-16 sm:w-18 sm:h-18"
               />
-              <p className="text-4xl font-bold mt-3 ml-2">
+              <p className="text-3xl sm:text-4xl font-bold ml-2 mt-1">
                 {Math.round(weather.main.temp)}°C
               </p>
             </div>
 
-            <p className="text-2xl font-bold capitalize">
+            <p className="text-xl sm:text-2xl font-bold capitalize mt-2">
               {weather.weather[0].description}
             </p>
 
-            <div className="grid grid-cols-2 gap-4 mt-4">
+            <div className="grid grid-cols-2 gap-4 mt-6 text-sm sm:text-base">
               <div className="font-bold">
                 <p className="text-gray-400">Humidity</p>
                 <p>{weather.main.humidity}%</p>
